@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "毛鹏雲 / 主页"
 title_separator          : "-"
 name                     : "毛鹏雲"
-description              : "We are a small social science lab focusing on computational social science!"
+description              : "我是一名南京大学大数据传播实验班的大二学生"
 url                      : https://maopy114.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "maopy114.github.io"
@@ -54,10 +54,10 @@ google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
+  
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &qq
 facebook:
   username               :
   app_id                 :
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "SocratesClub"
+  name             : "毛鹏雲"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
