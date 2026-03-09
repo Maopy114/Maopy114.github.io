@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 # 毛鹏雲
 
 南京大学 大数据传播实验班 本科生  
