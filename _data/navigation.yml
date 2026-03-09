@@ -4,10 +4,10 @@ main:
     url: /talks/    
 
   - title: "喜欢的游戏"
-    url: /teaching/    
+    url: /game/    
     
   - title: "阅读的书籍"
-    url: /portfolio/
+    url: /books/
         
   - title: "博客"
     url: /year-archive/
