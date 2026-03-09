@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "毛鹏雲"
-  avatar           : "images/IMG_20260308_021801.jpg"
+  avatar           : "/images/IMG_20260308_021801.jpg"
   bio              : "哈基米南北绿豆"
   location         : "南京"
   employer         : 
