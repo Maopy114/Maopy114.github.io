@@ -8,195 +8,122 @@ redirect_from:
 ---
 
 ## Locations of key files/directories
+---
+layout: single
+title: "我的目标"
+permalink: /goals/
+author_profile: true
+---
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+# 我的个人目标
 
-## Tips and hints
+这是我在大学阶段为自己设定的一些长期和短期目标。  
+我希望通过持续学习、实践和记录成长，逐渐找到自己真正擅长和热爱的方向。
 
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
+---
 
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
+# 🎯 长期目标
 
-## Markdown guide
+### 1. 成为一名游戏开发者
 
-### Header three
+我对游戏设计和游戏开发非常感兴趣，希望未来能够参与或独立开发一款完整的游戏。
 
-#### Header four
+计划学习：
 
-##### Header five
+- Unity 游戏开发
+- 游戏设计基础
+- C# / 游戏编程
+- 游戏叙事设计
 
-###### Header six
+---
 
-## Blockquotes
+### 2. 掌握数据分析与 AI 技术
 
-Single line blockquote:
+我目前在南京大学大数据传播实验班学习，希望能够掌握数据分析和 AI 的基本能力。
 
-> Quotes are cool.
+重点方向：
 
-## Tables
+- Python 数据分析  
+- 机器学习基础  
+- 网络科学与传播模型  
+- 数据可视化  
 
-### Table 1
+---
 
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+### 3. 建立个人技术作品集
 
-### Table 2
+我希望通过不断做项目来积累经验，并在这个网站上记录下来。
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
+未来希望完成：
 
-## Definition Lists
+- 一个完整的小游戏
+- 一个数据分析项目
+- 一个技术博客体系
+- 多个小型编程项目
 
-Definition List Title
-:   Definition list division.
+---
 
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+# 🚀 2026阶段目标
 
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
+## 技术成长
 
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+- 熟练掌握 Python 编程
+- 完成至少 **3 个编程项目**
+- 学习 Unity 并完成 **第一个小游戏**
+- 学习基本的数据分析技能
 
-## Unordered Lists (Nested)
+---
 
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
+## 学习与输出
 
-## Ordered List (Nested)
+- 在博客中记录学习过程
+- 至少写 **10 篇技术或学习文章**
+- 记录项目开发过程
 
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
+---
 
-## Buttons
+## 身体与生活
 
-Make any link standout more when applying the `.btn` class.
+身体健康对长期发展非常重要。
 
-## Notices
+目标：
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+- 体重从 **97kg 减到 85kg**
+- 坚持跑步和力量训练
+- 保持稳定作息
 
-## HTML Tags
+---
 
-### Address Tag
+# 📚 学习方向
 
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
+目前我主要在探索以下方向：
 
-### Anchor Tag (aka. Link)
+### 编程
 
-This is an example of a [link](http://github.com "Github").
+- Python
+- SQL
+- Java
+- Unity / C#
 
-### Abbreviation Tag
+### 数据科学
 
-The abbreviation CSS stands for "Cascading Style Sheets".
+- Network Analysis
+- Epidemic Spreading Model
+- 数据可视化
 
-*[CSS]: Cascading Style Sheets
+### 创作
 
-### Cite Tag
+- 游戏设计
+- 技术博客
+- 视频创作
 
-"Code is poetry." ---<cite>Automattic</cite>
+---
 
-### Code Tag
+# 🌱 一句话目标
 
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+> 持续学习、持续创造、持续成长。  
+> 希望未来回头看时，自己已经走了很远。
 
-### Strike Tag
+---
 
-This tag will let you <strike>strikeout text</strike>.
-
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
+如果你对我的项目或想法感兴趣，欢迎通过 GitHub 或邮件联系我。
