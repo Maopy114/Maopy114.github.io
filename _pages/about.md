@@ -12,7 +12,7 @@ redirect_from:
 
 欢迎来到我的网站
 
-Github: https://github.com/socratesclub
+Github: [https://github.com/socratesclub](https://maopy114.github.io//)
 
 ## People
 ### Directer
