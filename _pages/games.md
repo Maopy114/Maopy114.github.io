@@ -15,6 +15,3 @@ author_profile: true
 ## 独立游戏
 - 杀戮尖塔
 - Hollow Knight
-
-## 开发相关
-- Unity 游戏开发
