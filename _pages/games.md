@@ -5,13 +5,75 @@ permalink: /games/
 author_profile: true
 ---
 
-# 我喜欢的游戏
+<style>
+.game-grid{
+display:grid;
+grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.game-card{
+text-align:center;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:transform 0.2s;
+}
+
+.game-card:hover{
+transform:translateY(-5px);
+}
+
+.game-card img{
+width:100%;
+height:280px;
+object-fit:cover;
+}
+
+.game-title{
+padding:10px;
+font-weight:bold;
+}
+</style>
+
+# 🎮 我喜欢的游戏
 
 ## 网游
-- 王者荣耀
-- 火影忍者
-- 三角洲行动
+
+<div class="game-grid">
+
+<div class="game-card">
+<img src="/images/wangzhe.jpg">
+<div class="game-title">王者荣耀</div>
+</div>
+
+<div class="game-card">
+<img src="/images/huoying.jpg">
+<div class="game-title">火影忍者</div>
+</div>
+
+<div class="game-card">
+<img src="/images/delta.jpg">
+<div class="game-title">三角洲行动</div>
+</div>
+
+</div>
+
+---
 
 ## 独立游戏
-- 杀戮尖塔
-- Hollow Knight
+
+<div class="game-grid">
+
+<div class="game-card">
+<img src="/images/slay_the_spire.jpg">
+<div class="game-title">杀戮尖塔</div>
+</div>
+
+<div class="game-card">
+<img src="/images/hollow_knight.jpg">
+<div class="game-title">Hollow Knight</div>
+</div>
+
+</div>
