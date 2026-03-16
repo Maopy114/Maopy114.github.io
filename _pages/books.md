@@ -1,5 +1,4 @@
 ---
-
 layout: single
 title: "喜欢的书籍"
 permalink: /books/
