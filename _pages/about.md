@@ -14,9 +14,3 @@ redirect_from:
 
 Github: [https://github.com/socratesclub](https://maopy114.github.io//)
 
-## People
-### Directer
-- Cheng-Jun Wang https://chengjun.github.io/
-
-
-🖋[Revise this page](https://github.com/SocratesGroup/socratesgroup.github.io/edit/master/_pages/about.md)
