@@ -1,16 +1,16 @@
-# main links links
+# main links
 main:
-  - title: "喜欢的游戏"
-    url: /games/    
-    
-  - title: "阅读的书籍"
-    url: /books/
-        
+  - title: "个人档案"
+    url: /profile/
+
+  - title: "项目"
+    url: /projects/
+
+  - title: "技能"
+    url: /skills/
+
+  - title: "学习路线"
+    url: /goals/
+
   - title: "博客"
     url: /year-archive/
-    
-  - title: "简历"
-    url: /cv/
-    
-  - title: "我的目标"
-    url: /markdown/
