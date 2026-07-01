@@ -1,78 +1,150 @@
 ---
 permalink: /
-title: "毛鹏雲的个人网站主页"
-excerpt: "About me"
-author_profile: true
+title: "Mao Pengyun Portfolio"
+excerpt: "NJU Data Communication · AI & Data Science Learner"
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<section class="home-hero">
-  <div class="home-hero__content">
-    <div class="home-hero__eyebrow">NJU / Data Communication / Personal System</div>
-    <h1>把学习、项目、技能和目标拆成清晰模块，搭一个持续进化的个人空间。</h1>
-    <p class="home-hero__lead">
-      这里不再只是一个简历页，而是一个小型个人系统：记录我是谁、做过什么、正在练什么，以及下一步要去哪里。
-    </p>
-    <div class="home-actions">
-      <a class="home-action" href="/profile/">个人档案</a>
-      <a class="home-action" href="/projects/">项目</a>
-      <a class="home-action" href="https://github.com/Maopy114">GitHub</a>
+<section class="portfolio-hero">
+  <div class="portfolio-hero__copy">
+    <p class="portfolio-eyebrow">NJU / Data Communication / Personal System</p>
+    <h1>毛鹏雲 / Mao Pengyun</h1>
+    <p class="portfolio-hero__subtitle">NJU Data Communication · AI & Data Science Learner</p>
+    <p class="portfolio-hero__lead">I build small systems to understand data, intelligence, and society.</p>
+    <div class="portfolio-actions">
+      <a class="portfolio-button portfolio-button--primary" href="/projects/">View Projects</a>
+      <a class="portfolio-button portfolio-button--secondary" href="/profile/">Read Profile</a>
     </div>
-    <div class="home-chipline">
-      <span class="home-chip">Python</span>
-      <span class="home-chip">Data Science</span>
-      <span class="home-chip">AI</span>
-      <span class="home-chip">Unity / C#</span>
+  </div>
+  <aside class="portfolio-identity-card" aria-label="Personal profile summary">
+    <img src="/images/IMG_20260308_021801.jpg" alt="Mao Pengyun" />
+    <div>
+      <p class="portfolio-identity-card__name">Mao Pengyun</p>
+      <p>南京大学大数据传播实验班本科生</p>
+      <div class="portfolio-tags">
+        <span>Data Science</span>
+        <span>AI</span>
+        <span>Computational Communication</span>
+        <span>Unity / C#</span>
+      </div>
     </div>
+  </aside>
+</section>
+
+<section class="portfolio-section">
+  <div class="portfolio-section__header">
+    <p class="portfolio-eyebrow">Focus Areas</p>
+    <h2>Four directions I am growing into</h2>
+  </div>
+  <div class="portfolio-focus-grid">
+    <article class="portfolio-card">
+      <span class="portfolio-card__icon">DS</span>
+      <h3>Data Science</h3>
+      <p>Using Python, SQL, statistics, and visualization to turn messy information into structured understanding.</p>
+    </article>
+    <article class="portfolio-card">
+      <span class="portfolio-card__icon">AI</span>
+      <h3>Artificial Intelligence</h3>
+      <p>Building a foundation in machine learning, model thinking, and practical AI workflows for real problems.</p>
+    </article>
+    <article class="portfolio-card">
+      <span class="portfolio-card__icon">CC</span>
+      <h3>Computational Communication</h3>
+      <p>Exploring how networks, platforms, and public events can be studied through data and simulation.</p>
+    </article>
+    <article class="portfolio-card">
+      <span class="portfolio-card__icon">C#</span>
+      <h3>Game Development</h3>
+      <p>Learning Unity and C# through small playable systems, rule design, and interactive prototypes.</p>
+    </article>
   </div>
 </section>
 
-<div class="home-stats">
-  <div class="home-stat">
-    <span class="home-stat__label">Profile</span>
-    <span class="home-stat__value">个人档案</span>
+<section class="portfolio-section">
+  <div class="portfolio-section__header">
+    <p class="portfolio-eyebrow">Featured Projects</p>
+    <h2>Small projects, clear learning traces</h2>
   </div>
-  <div class="home-stat">
-    <span class="home-stat__label">Work</span>
-    <span class="home-stat__value">项目沉淀</span>
+  <div class="portfolio-project-grid">
+    <article class="portfolio-project-card">
+      <div class="portfolio-project-card__top">
+        <h3>Flask 任务抽卡系统网站</h3>
+        <span class="portfolio-status">Prototype</span>
+      </div>
+      <p>一个把任务管理和抽卡激励结合起来的小型 Web 系统，练习后端路由、用户流程和数据结构设计。</p>
+      <div class="portfolio-tags"><span>Python</span><span>Flask</span><span>Web</span><span>JSON</span></div>
+      <a href="/projects/">View details</a>
+    </article>
+    <article class="portfolio-project-card">
+      <div class="portfolio-project-card__top">
+        <h3>疫情传播模拟</h3>
+        <span class="portfolio-status">Research Practice</span>
+      </div>
+      <p>基于传播模型和网络结构模拟信息或疫情扩散过程，用代码理解复杂系统中的动态变化。</p>
+      <div class="portfolio-tags"><span>Python</span><span>NetworkX</span><span>NumPy</span><span>SIR-UAU</span></div>
+      <a href="/projects/">View details</a>
+    </article>
+    <article class="portfolio-project-card">
+      <div class="portfolio-project-card__top">
+        <h3>推箱子小游戏</h3>
+        <span class="portfolio-status">Playable Practice</span>
+      </div>
+      <p>从地图、角色移动、箱子推动规则开始，练习把经典玩法拆解成可维护的程序逻辑。</p>
+      <div class="portfolio-tags"><span>Python</span><span>Game Logic</span><span>Rules</span></div>
+      <a href="/projects/">View details</a>
+    </article>
+    <article class="portfolio-project-card">
+      <div class="portfolio-project-card__top">
+        <h3>个人网站</h3>
+        <span class="portfolio-status">Active</span>
+      </div>
+      <p>把 AcademicPages 改造成个人作品集，用页面结构、视觉系统和内容整理记录成长过程。</p>
+      <div class="portfolio-tags"><span>Jekyll</span><span>SCSS</span><span>GitHub Pages</span></div>
+      <a href="/projects/">View details</a>
+    </article>
   </div>
-  <div class="home-stat">
-    <span class="home-stat__label">Roadmap</span>
-    <span class="home-stat__value">学习路线</span>
-  </div>
-</div>
+</section>
 
-<div class="home-grid">
-  <article class="home-card">
-    <div class="home-card__label">Profile</div>
-    <h2>个人档案</h2>
-    <p>简要介绍我的学校、方向、状态和关注领域，作为整个网站的个人入口。</p>
-    <a href="/profile/">进入档案</a>
-  </article>
-  <article class="home-card">
-    <div class="home-card__label">Projects</div>
-    <h2>项目</h2>
-    <p>把 Flask、传播模拟、推箱子、个人网站等练习单独整理，后续可以继续补充作品。</p>
-    <a href="/projects/">查看项目</a>
-  </article>
-  <article class="home-card">
-    <div class="home-card__label">Skills</div>
-    <h2>技能</h2>
-    <p>把编程语言、数据分析、工具链和正在补强的能力拆开，形成更清楚的能力地图。</p>
-    <a href="/skills/">查看技能</a>
-  </article>
-  <article class="home-card">
-    <div class="home-card__label">Goals</div>
-    <h2>学习路线</h2>
-    <p>把长期方向、阶段目标、输出计划和生活习惯拆成可执行的小步骤。</p>
-    <a href="/goals/">查看路线</a>
-  </article>
-  <article class="home-card">
-    <div class="home-card__label">Blog</div>
-    <h2>博客</h2>
-    <p>用于记录学习过程、项目复盘和阶段性想法，让网站慢慢长出时间线。</p>
-    <a href="/year-archive/">阅读博客</a>
-  </article>
-</div>
+<section class="portfolio-section portfolio-split">
+  <div>
+    <div class="portfolio-section__header">
+      <p class="portfolio-eyebrow">Skills Snapshot</p>
+      <h2>Current toolbox</h2>
+    </div>
+    <div class="portfolio-skill-matrix">
+      <div>
+        <h3>Programming</h3>
+        <p>Python / SQL / Java / C#</p>
+      </div>
+      <div>
+        <h3>Analysis</h3>
+        <p>Data Analysis / Network Analysis / Visualization</p>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <p>Git / GitHub / Jupyter / MySQL / Jekyll</p>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-roadmap-card">
+    <p class="portfolio-eyebrow">2026 Roadmap</p>
+    <ol class="portfolio-timeline">
+      <li><span>Foundation</span>Strengthen Python, SQL, and data analysis basics.</li>
+      <li><span>Projects</span>Finish 3+ small projects with clear writeups.</li>
+      <li><span>Game</span>Build a complete Unity / C# mini game.</li>
+      <li><span>Writing</span>Start publishing project notes and reflections.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="portfolio-section portfolio-blog-preview">
+  <div>
+    <p class="portfolio-eyebrow">Blog</p>
+    <h2>Coming soon</h2>
+    <p>Blog is coming soon. I will use this space to record projects, learning notes, and reflections.</p>
+  </div>
+  <a class="portfolio-button portfolio-button--secondary" href="/year-archive/">Open Blog</a>
+</section>

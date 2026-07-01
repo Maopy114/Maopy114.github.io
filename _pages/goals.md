@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "学习路线"
+title: "Roadmap"
 permalink: /goals/
 author_profile: true
 redirect_from:
@@ -9,30 +9,41 @@ redirect_from:
   - /markdown.html
 ---
 
-## 长期方向
+<section class="portfolio-page-intro">
+  <p class="portfolio-eyebrow">Roadmap</p>
+  <h1>把长期方向拆成能执行的阶段。</h1>
+  <p>我的长期目标是成为能够独立完成技术项目、解释复杂问题、持续输出作品的学习者。2026 年的主线是：数据科学 + 人工智能 + 游戏开发 + 写作沉淀。</p>
+</section>
 
-我希望逐步成长为能够独立完成项目的技术型创作者。现在的主线是：数据科学 + 人工智能 + 游戏开发。
+<section class="portfolio-roadmap-layout">
+  <article class="portfolio-roadmap-card">
+    <p class="portfolio-eyebrow">Long-term Direction</p>
+    <h2>Personal System</h2>
+    <p>逐步建立一个包含项目、知识、代码、写作和生活节奏的个人系统，让学习不是零散堆积，而是能被复盘和迭代。</p>
+  </article>
 
-## 2026 阶段目标
+  <article class="portfolio-roadmap-card">
+    <p class="portfolio-eyebrow">2026 Goals</p>
+    <ol class="portfolio-timeline">
+      <li><span>Q1-Q2</span>强化 Python、SQL、数据分析和 Git 基础。</li>
+      <li><span>Q2-Q3</span>完成至少 3 个可展示项目，并写出项目说明。</li>
+      <li><span>Q3-Q4</span>系统学习 Unity / C#，完成第一个完整小游戏。</li>
+      <li><span>Always</span>保持稳定输出，记录学习笔记、项目复盘和阶段反思。</li>
+    </ol>
+  </article>
 
-- 熟练掌握 Python 编程
-- 完成至少 3 个编程或数据分析项目
-- 学习 Unity，并做出第一个完整小游戏
-- 持续记录项目开发过程和学习笔记
+  <article class="portfolio-roadmap-card">
+    <p class="portfolio-eyebrow">Output Plan</p>
+    <div class="portfolio-mini-grid">
+      <div><strong>Project Notes</strong><span>记录从想法到实现的过程。</span></div>
+      <div><strong>Learning Notes</strong><span>整理课程与自学中的关键知识。</span></div>
+      <div><strong>Portfolio Updates</strong><span>把小练习逐步沉淀成作品。</span></div>
+      <div><strong>Reflections</strong><span>复盘时间管理、状态和成长节奏。</span></div>
+    </div>
+  </article>
 
-## 输出计划
-
-- 建立稳定的技术博客
-- 记录项目从想法到实现的过程
-- 整理课程学习中的关键知识
-- 把小练习逐步沉淀成作品集
-
-## 生活与成长
-
-- 保持规律作息
-- 坚持跑步和力量训练
-- 把长期目标拆成能执行的小步骤
-
-## 一句话目标
-
-持续学习，持续创造，持续成长。希望未来回头看时，自己已经走了很远。
+  <article class="portfolio-roadmap-card">
+    <p class="portfolio-eyebrow">Life & Growth</p>
+    <p>保持规律作息、运动习惯和长期主义。让学习、项目和生活状态彼此支撑，而不是互相消耗。</p>
+  </article>
+</section>

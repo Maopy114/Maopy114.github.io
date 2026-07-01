@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "毛鹏雲 / 主页"
+title                    : "毛鹏雲 / Mao Pengyun"
 title_separator          : "-"
 name                     : "毛鹏雲"
-description              : "我是一名南京大学大数据传播实验班的大二学生"
+description              : "南京大学大数据传播实验班本科生，关注数据科学、人工智能、计算传播与 Unity / C# 游戏开发。"
 url                      : https://maopy114.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Maopy114/maopy114.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "毛鹏雲"
   avatar           : "IMG_20260308_021801.jpg"
-  bio              : "日拱一卒，功不唐捐。"
+  bio              : "NJU Data Communication · AI & Data Science Learner"
   location         : "南京"
   employer         : 
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :
+  googlescholar    :
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
