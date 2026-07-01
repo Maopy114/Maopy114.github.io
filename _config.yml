@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "毛鹏雲个人作品集"
+title                    : "毛鹏雲 / Mao Pengyun"
 title_separator          : "-"
 name                     : "毛鹏雲"
-description              : "南京大学大数据传播实验班本科生，关注数据科学、人工智能、计算传播与游戏开发。"
+description              : "NJU Data Communication · AI & Data Science Learner"
 url                      : https://maopy114.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Maopy114/maopy114.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "毛鹏雲"
   avatar           : "IMG_20260308_021801.jpg"
-  bio              : "南京大学大数据传播实验班 · 人工智能与数据科学学习者"
+  bio              : "NJU Data Communication · AI & Data Science Learner"
   location         : "南京"
   employer         : 
   pubmed           :

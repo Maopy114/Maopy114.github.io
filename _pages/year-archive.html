@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "博客"
+title: "Blog"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
@@ -13,8 +13,8 @@ redirect_from:
 
 {% if real_posts.size > 0 %}
   <section class="portfolio-page-intro portfolio-page-intro--archive">
-    <p class="portfolio-eyebrow">博客</p>
-    <h1>学习笔记、项目记录与阶段反思。</h1>
+    <p class="portfolio-eyebrow">Blog</p>
+    <h1>Learning notes, project logs, and reflections.</h1>
   </section>
 
   {% capture written_year %}'None'{% endcapture %}
@@ -28,9 +28,9 @@ redirect_from:
   {% endfor %}
 {% else %}
   <section class="portfolio-empty-state">
-    <p class="portfolio-eyebrow">博客</p>
-    <h1>即将开始</h1>
-    <p>这里会用来记录项目过程、学习笔记和阶段反思。</p>
-    <a class="portfolio-button portfolio-button--primary" href="/projects/">查看项目</a>
+    <p class="portfolio-eyebrow">Blog</p>
+    <h1>Coming Soon</h1>
+    <p>这里会用来记录项目过程、学习笔记和阶段反思。等有真实文章后，这里会自动变成文章归档。</p>
+    <a class="portfolio-button portfolio-button--primary" href="/projects/">View Projects</a>
   </section>
 {% endif %}

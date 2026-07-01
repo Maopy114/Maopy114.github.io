@@ -594,9 +594,138 @@ a:hover {
   margin-top: 1rem;
 }
 
+.portfolio-hero--strong {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  padding: 3rem;
+  background:
+    radial-gradient(circle at 88% 16%, rgba(91, 91, 214, 0.14), transparent 28%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(237, 243, 251, 0.96));
+}
+
+.portfolio-hero--strong:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(38, 60, 136, 0.05) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(38, 60, 136, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(90deg, transparent, #000 20%, #000 82%, transparent);
+}
+
+.portfolio-hero--strong > * {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-hero--strong h1 {
+  max-width: 760px;
+  letter-spacing: 0;
+}
+
+.portfolio-section--spacious {
+  margin-top: 3rem;
+}
+
+.portfolio-module-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.portfolio-module-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 1.05rem;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 8px;
+  background: var(--portfolio-surface);
+  box-shadow: 0 14px 32px rgba(31, 45, 74, 0.06);
+}
+
+.portfolio-module-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  color: var(--portfolio-text);
+  font-size: 1.15rem;
+}
+
+.portfolio-module-card p {
+  margin-bottom: 1rem;
+  color: var(--portfolio-muted);
+}
+
+.portfolio-module-card a {
+  margin-top: auto;
+  font-weight: 850;
+}
+
+.portfolio-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--portfolio-line);
+}
+
+.portfolio-card-actions .portfolio-button {
+  min-height: 36px;
+  padding: 0.45rem 0.7rem;
+  font-size: 0.84rem;
+}
+
+.portfolio-button--disabled {
+  color: var(--portfolio-subtle) !important;
+  border-color: var(--portfolio-line);
+  background: #f4f7fb;
+  cursor: default;
+}
+
+.portfolio-status--learning {
+  color: #5d4a00;
+  border-color: #f0d489;
+  background: #fff7d8;
+}
+
+.portfolio-status--built {
+  color: #075f4f;
+  border-color: #a8dccc;
+  background: #e9fbf5;
+}
+
+.portfolio-status--progress {
+  color: var(--portfolio-primary-strong);
+  border-color: #c7cff5;
+  background: #eef1ff;
+}
+
+.portfolio-deliverable {
+  margin-top: 0.9rem;
+  padding: 0.8rem;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 8px;
+  color: var(--portfolio-primary-strong);
+  background: var(--portfolio-bg-soft);
+  font-weight: 750;
+}
+
+.portfolio-roadmap-layout--timeline {
+  position: relative;
+}
+
+.portfolio-roadmap-layout--timeline .portfolio-roadmap-card {
+  border-left: 4px solid var(--portfolio-primary);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .portfolio-button,
   .portfolio-card,
+  .portfolio-module-card,
   .portfolio-project-card,
   .portfolio-skill-group,
   .portfolio-roadmap-card {
@@ -604,6 +733,7 @@ a:hover {
   }
 
   .portfolio-card:hover,
+  .portfolio-module-card:hover,
   .portfolio-project-card:hover,
   .portfolio-skill-group:hover,
   .portfolio-roadmap-card:hover {
@@ -637,6 +767,10 @@ a:hover {
   .portfolio-hero,
   .portfolio-split {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio-module-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .portfolio-identity-card {
@@ -685,6 +819,7 @@ a:hover {
   }
 
   .portfolio-focus-grid,
+  .portfolio-module-grid,
   .portfolio-project-grid,
   .portfolio-info-grid,
   .portfolio-skill-board,
@@ -719,6 +854,7 @@ a:hover {
 
   .portfolio-page-intro,
   .portfolio-card,
+  .portfolio-module-card,
   .portfolio-project-card,
   .portfolio-skill-group,
   .portfolio-roadmap-card,

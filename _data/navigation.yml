@@ -1,16 +1,16 @@
 # main links
 main:
-  - title: "个人档案"
+  - title: "Profile"
     url: /profile/
 
-  - title: "项目"
+  - title: "Projects"
     url: /projects/
 
-  - title: "技能"
+  - title: "Skills"
     url: /skills/
 
-  - title: "学习路线"
+  - title: "Roadmap"
     url: /goals/
 
-  - title: "博客"
+  - title: "Blog"
     url: /year-archive/
