@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+  <title id="title">Studying Agent learning workspace</title>
+  <desc id="desc">Workspace with generated notes, transcript analysis, and bottom command bar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfaf8"/>
+      <stop offset="1" stop-color="#f3eee9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#111827" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="960" fill="url(#bg)"/>
+  <rect x="0" y="0" width="286" height="960" fill="#fffdf9" stroke="#eadfd5"/>
+  <text x="32" y="52" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#302a26">历史会话</text>
+  <rect x="24" y="86" width="238" height="72" rx="10" fill="#f6eee8" stroke="#e0d1c5"/>
+  <text x="42" y="119" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#332e29">机器学习课堂</text>
+  <text x="42" y="142" font-family="Inter, Arial, sans-serif" font-size="12" fill="#80736b">SVM 最大间隔、核函数...</text>
+  <rect x="24" y="174" width="238" height="72" rx="10" fill="#fff" stroke="#eadfd5"/>
+  <text x="42" y="207" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#4b4039">论文精读</text>
+  <text x="42" y="230" font-family="Inter, Arial, sans-serif" font-size="12" fill="#8a7d74">摘要、方法、实验结果...</text>
+  <g transform="translate(330 36)">
+    <rect width="1016" height="704" rx="18" fill="#fffdf9" stroke="#eadfd5" filter="url(#shadow)"/>
+    <text x="32" y="48" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#2f2a26">PPT 智能解析</text>
+    <rect x="32" y="78" width="600" height="42" rx="12" fill="#f7efe8" stroke="#ead8ca"/>
+    <text x="52" y="105" font-family="Inter, Arial, sans-serif" font-size="14" fill="#8a4a38">当前记录：machine-learning-svm.pdf</text>
+    <g transform="translate(32 150)">
+      <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#2d2925">支持向量机课堂笔记</text>
+      <line x1="0" y1="22" x2="910" y2="22" stroke="#eadfd5"/>
+      <text x="0" y="70" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#3b332d">1. 核心目标</text>
+      <text x="0" y="104" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5d534c">支持向量机通过寻找最大间隔超平面，让分类边界对噪声更稳健。</text>
+      <rect x="0" y="132" width="910" height="84" rx="12" fill="#2c2a29"/>
+      <text x="35" y="184" font-family="Consolas, monospace" font-size="22" fill="#f2ece6">min 1/2 ||w||²   s.t. yᵢ(wᵀxᵢ + b) ≥ 1</text>
+      <text x="0" y="266" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#3b332d">2. 学习重点</text>
+      <text x="0" y="304" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5d534c">• 支持向量决定最终分类边界，非支持向量对模型影响较小。</text>
+      <text x="0" y="338" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5d534c">• 核函数把非线性问题映射到高维空间。</text>
+      <text x="0" y="372" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5d534c">• 软间隔参数 C 控制误分类容忍度和泛化能力之间的平衡。</text>
+    </g>
+  </g>
+  <g transform="translate(330 762)" filter="url(#shadow)">
+    <rect width="1016" height="140" rx="18" fill="#fffdf9" stroke="#eadfd5"/>
+    <text x="28" y="40" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#302a26">AI 内容摘要</text>
+    <text x="28" y="72" font-family="Inter, Arial, sans-serif" font-size="14" fill="#655c55">本节课围绕 SVM 的最大间隔思想、支持向量、软间隔和核函数展开。</text>
+    <text x="28" y="104" font-family="Inter, Arial, sans-serif" font-size="14" fill="#655c55">建议结合二维分类图理解 C 与 kernel 对决策边界的影响。</text>
+    <rect x="706" y="28" width="282" height="84" rx="14" fill="#f7efe8" stroke="#ead8ca"/>
+    <text x="730" y="61" font-family="Inter, Arial, sans-serif" font-size="13" fill="#7b6b62">课堂转写</text>
+    <text x="730" y="89" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#3a332d">已整理为学习记录</text>
+  </g>
+  <g transform="translate(368 906)">
+    <rect width="924" height="38" rx="16" fill="#fff" stroke="#ded2c8"/>
+    <text x="52" y="25" font-family="Inter, Arial, sans-serif" font-size="14" fill="#9d8f86">继续提问：如何理解核函数？</text>
+  </g>
+</svg>

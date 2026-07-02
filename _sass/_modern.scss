@@ -424,6 +424,31 @@ a:hover {
   margin-top: 1.35rem;
 }
 
+.portfolio-project-card--with-image {
+  overflow: hidden;
+  padding: 0;
+}
+
+.portfolio-project-card--with-image > :not(.portfolio-project-card__image) {
+  margin-right: 1.15rem;
+  margin-left: 1.15rem;
+}
+
+.portfolio-project-card--with-image > .portfolio-card-actions {
+  margin-bottom: 1.15rem;
+}
+
+.portfolio-project-card__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+  border-bottom: 1px solid var(--portfolio-line);
+  background:
+    linear-gradient(135deg, rgba(245, 247, 255, 0.92), rgba(255, 255, 255, 0.98)),
+    var(--portfolio-bg-soft);
+}
+
 .portfolio-status {
   flex: 0 0 auto;
   padding: 0.22rem 0.48rem;
@@ -714,6 +739,29 @@ a:hover {
   font-weight: 750;
 }
 
+.portfolio-detail-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.portfolio-detail-card {
+  padding: 1.15rem;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 8px;
+  background: var(--portfolio-surface);
+  box-shadow: 0 14px 32px rgba(31, 45, 74, 0.06);
+}
+
+.portfolio-detail-card h3 {
+  margin-top: 0;
+  color: var(--portfolio-text);
+}
+
+.portfolio-detail-card ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
 .portfolio-roadmap-layout--timeline {
   position: relative;
 }
@@ -727,6 +775,7 @@ a:hover {
   .portfolio-card,
   .portfolio-module-card,
   .portfolio-project-card,
+  .portfolio-detail-card,
   .portfolio-skill-group,
   .portfolio-roadmap-card {
     transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
@@ -735,6 +784,7 @@ a:hover {
   .portfolio-card:hover,
   .portfolio-module-card:hover,
   .portfolio-project-card:hover,
+  .portfolio-detail-card:hover,
   .portfolio-skill-group:hover,
   .portfolio-roadmap-card:hover {
     border-color: var(--portfolio-line-strong);
@@ -860,5 +910,18 @@ a:hover {
   .portfolio-roadmap-card,
   .portfolio-empty-state {
     padding: 1rem;
+  }
+
+  .portfolio-project-card--with-image {
+    padding: 0;
+  }
+
+  .portfolio-project-card--with-image > :not(.portfolio-project-card__image) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .portfolio-project-card--with-image > .portfolio-card-actions {
+    margin-bottom: 1rem;
   }
 }
